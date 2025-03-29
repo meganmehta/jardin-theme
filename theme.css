@@ -1,9 +1,4 @@
-.afacad {
-	font-family: "Afacad", sans-serif;
-	font-optical-sizing: auto;
-	font-weight: 700;
-	font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 body {
 	--radius-s: 4px;
@@ -15,7 +10,13 @@ body {
 	--toggle-radius: 4px;
 	--toggle-thumb-radius: 4px;
 	--slider-thumb-radius: 4px;
-	--font-text-theme: "Afacad", sans-serif;
+	--font-text-theme: "Inter", sans-serif;
+}
+
+h1{
+	font-family: "Afacad", sans-serif;
+	font-weight: 700;
+	font-family: 40px;
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
@@ -43,4 +44,8 @@ svg * {
 
 .theme-light {
 	--background-primary: #EFF7CF;
-  }
+}
+
+:root {
+	--input-hover-border-color: #D0F0C0
+ }
