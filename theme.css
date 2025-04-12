@@ -47,5 +47,8 @@ svg * {
 }
 
 :root {
-	--input-hover-border-color: #D0F0C0
+	--input-focus-outline: 1px solid Canvas;
+	--input-unfocused-border-color: transparent;
+	--input-disabled-border-color: transparent;
+	--input-hover-border-color: yellow;
  }
